@@ -1,0 +1,41 @@
+{
+
+
+  "property_info":  {
+    "property_type":"",
+    "property_genre":"",
+    "state":"",
+    "property_location":"",
+    "society_name":"",
+    "address":""
+    },
+
+    "sale_details":{
+        "sale_type":"",
+        "ownership":"",
+        "number_of_floors":"",
+        "availability":"",
+        "property_on_the_floor":"",
+        "possession_by":""
+    },
+
+    "property_description":{
+        "built_up_area":"",
+        "carpet_area":"",
+        "super_area":"",
+        "land_area":"",
+        "exprected_price":"",
+        "booking_amount":"",
+        "maintanance_charges":"",
+        "no_of_bedroom":"",
+        "no_of_bathroom":"",
+        "no_of_balcony":"",
+        "description":""
+
+    }
+
+
+}
+
+
+
