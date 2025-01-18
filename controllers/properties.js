@@ -8,7 +8,7 @@ import User from "../models/User.js";
 
 export const createProperty = async(req,res)=>{
 
-    const { property_info, sale_details, property_description, userId } = req.body;
+    const { property_info, sale_details, property_description, userId ,imgUrl } = req.body;
 
     try {
       // Check if the user exists
@@ -23,6 +23,7 @@ export const createProperty = async(req,res)=>{
         sale_details,
         property_description,
         user: user._id, // Associate property with the user who posted it
+        imgUrl
       });
   
       // Save the property to the database
